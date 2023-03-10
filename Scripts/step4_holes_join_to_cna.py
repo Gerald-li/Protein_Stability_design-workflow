@@ -6,9 +6,6 @@ def get_same_element_index(ob_list, word):
     return [i for (i,v) in enumerate(ob_list) if v == word]
 
 def get_mut_suggest_list(CNA_local_indices_file, Rig_Ind_value, mut_suggest_file, holes_join_cna_file):
-##包括两个输入和一个输出文件，mut_suggest_fle是上一步生产的文件'mute_sugguest';
-# 'CNA_local_indices_file'是CNA分析后输出的文件，
-# 最后一个为本轮输出文件，默认为'holes_join_cna.csv'。
     with open(CNA_local_indices_file, 'r') as fc:
         lines_cna = fc.readlines()
         fc.close()
@@ -77,8 +74,5 @@ def get_mut_suggest_list(CNA_local_indices_file, Rig_Ind_value, mut_suggest_file
 
 
 if __name__ == "__main__":
-    # import os
-    # os.chdir('/data/jinlong/MaGGop/findholes/')
-    # CNA_local_indices_file='./cna_results/1nf2_chainA_delMg_local_indices.dat'
     CNA_local_indices_file = sys.argv[1]
     get_mut_suggest_list(CNA_local_indices_file, Rig_Ind_value=-3, mut_suggest_file='mute_sugguest',  holes_join_cna_file='holes_join_cna.csv')
