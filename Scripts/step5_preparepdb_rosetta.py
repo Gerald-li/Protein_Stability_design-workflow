@@ -71,7 +71,6 @@ def main_bk():
 if __name__ == '__main__':
     basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), './')
     os.chdir(basedir)
-    # pdbfilename = '1nf2_chainA_delMg.pdb'
     pdbfilename = sys.argv[1]
     nstruct = int(sys.argv[2])
     cpunumber = sys.argv[3]
