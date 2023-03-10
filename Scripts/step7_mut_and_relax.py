@@ -154,5 +154,5 @@ if __name__ == '__main__':
     refined_native_pdb = bestscore_pdbname + '.pdb'
     os.system('cp ./refine/%s selected_bestscorepdb' % (refined_native_pdb))
     mute_list_file ='../mut_for_relax_file.csv'
-    refineflag_parameters = [nstruct, "default_repeats 5", "./refine"] ##larger nstruct means we can get a precise result, but more time cost. 20-50 recommend.
-    writerelaxsh(refined_native_pdb, bestscore_wt_relax, mute_list_file, refineflag_parameters, relaxrange, mpi_run=cpunumber, columns=9) #mpi_run='39'表明用39个核来运行此任务，默认为20个核。
+    refineflag_parameters = [nstruct, "default_repeats 5", "./refine"] 
+    writerelaxsh(refined_native_pdb, bestscore_wt_relax, mute_list_file, refineflag_parameters, relaxrange, mpi_run=cpunumber, columns=9)
