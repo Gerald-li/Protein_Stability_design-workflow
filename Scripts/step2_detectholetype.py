@@ -7,17 +7,13 @@ import time
 
 from pymol import cmd
 from pymol import stored
-from multiprocessing import Process  # 多任务并行处理
-from multiprocessing import cpu_count  # 读取cpu的总线程数
-from multiprocessing import Pool  # 多任务并行处理管理器=
+from multiprocessing import Process 
+from multiprocessing import cpu_count 
+from multiprocessing import Pool 
 import numpy as np
 
 
 #USAGE： python detectholetype.py pdbfilename.pdb(protein pdb) holefilename.pdb(hole.pdb of protein) radius(rasidue around nA of holes)
-#输入的蛋白文件不能带有不可识别的残基和配体（非标准残基暂时不可识别）
-#Outfile：probe_result 给出每个探针所在周围残基的类型 类型最小值，最大值，平均值
-          # mute_suggust 给出每个探针所在周围残基依据我们所选择的类型可突变成的残基列表
-          #注意，当前版本类型选择需要通过手动进行。所在行为“mutelist =”，可通过搜索找到
 
 
 
@@ -90,12 +86,12 @@ def getaroundresiduelist(pdbfilename, holesfilename, radius=4.0):
         print('!!!!!!!!!!!!!!!!!!!!')
         print(residuesaroundpoint)
         residuesaroundholes.append(residuesaroundpoint)
-        # temp=cmd.iterate("hole_" + str(eachpoint + 1), "print(name,resn,resv)")  # 获得原子周围的原子
+        # temp=cmd.iterate("hole_" + str(eachpoint + 1), "print(name,resn,resv)")  
         # cmd.save("hole_" + str(eachpoint + 1) + ".pdb", selection="hole_" + str(eachpoint + 1), format='pdb')
     return residuesaroundholes
 
 
-def getmutlist(restype, length=9, charge=9, pka=9, hbond=9, hydrophobic=9):  # 回头把这里改成类，从文件读取各种属性列表，这样可以随时增减修改，可扩展性强
+def getmutlist(restype, length=9, charge=9, pka=9, hbond=9, hydrophobic=9):
     lengthout = []
     chargeout = []
     pkaout = []
@@ -237,7 +233,7 @@ def main():
                 resiID = eachresi[0]
                 resitype = eachresi[1]
                 mutelist = getmutlist(resitype, length=1,
-                                      charge=0, hydrophobic=2)  # 突变选择类型 0：表示和现在的一样，1，-1:表示大于等于和小于等于现在状态，2，-2：表示大于和小于现在状态
+                                      charge=0, hydrophobic=2) 
                 listout = ''.join(mutelist)
                 print(listout)
                 f.write("resiID:{:s}{:d}   mute_to:{:s}\n".format(resitype, resiID, listout))
