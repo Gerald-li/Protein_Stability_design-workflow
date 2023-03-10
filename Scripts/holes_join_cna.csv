@@ -1,0 +1,97 @@
+resiID:V6   mute_to:FI --> probe_number: 29
+resiID:V7   mute_to:FI --> probe_number: 29
+resiID:T9   mute_to:YFMIWVL --> probe_number: 27,probe_number: 28
+resiID:P10   mute_to:YFMICWVL --> probe_number: 27
+resiID:G11   mute_to:FMIAWVL --> probe_number: 27,probe_number: 28
+resiID:P13   mute_to:YFMICWVL --> probe_number: 5,probe_number: 30
+resiID:A14   mute_to:FMIWVL --> probe_number: 30
+resiID:L24   mute_to:FI --> probe_number: 1
+resiID:A25   mute_to:FMIWVL --> probe_number: 1
+resiID:L33   mute_to:FI --> probe_number: 1,probe_number: 29
+resiID:V34   mute_to:FI --> probe_number: 29
+resiID:V35   mute_to:FI --> probe_number: 29
+resiID:N44   mute_to:YFMTIWVL --> probe_number: 2
+resiID:S59   mute_to:PYFMTICWVL --> probe_number: 3
+resiID:S62   mute_to:PYFMTICWVL --> probe_number: 3
+resiID:P63   mute_to:YFMICWVL --> probe_number: 3
+resiID:A64   mute_to:FMIWVL --> probe_number: 3
+resiID:Q65   mute_to:WYFM --> probe_number: 3,probe_number: 4
+resiID:P66   mute_to:YFMICWVL --> probe_number: 4
+resiID:Q67   mute_to:WYFM --> probe_number: 1,probe_number: 4
+resiID:T68   mute_to:YFMIWVL --> probe_number: 1,probe_number: 4
+resiID:A69   mute_to:FMIWVL --> probe_number: 1
+resiID:T71   mute_to:YFMIWVL --> probe_number: 1
+resiID:L72   mute_to:FI --> probe_number: 1
+resiID:V83   mute_to:FI --> probe_number: 2,probe_number: 30
+resiID:L88   mute_to:FI --> probe_number: 5,probe_number: 30
+resiID:A89   mute_to:FMIWVL --> probe_number: 5,probe_number: 30
+resiID:N92   mute_to:YFMTIWVL --> probe_number: 5,probe_number: 30
+resiID:G93   mute_to:FMIAWVL --> probe_number: 5
+resiID:Y95   mute_to:W --> probe_number: 27
+resiID:V96   mute_to:FI --> probe_number: 5,probe_number: 27
+resiID:V97   mute_to:FI --> probe_number: 7
+resiID:T99   mute_to:YFMIWVL --> probe_number: 27
+resiID:L100   mute_to:FI --> probe_number: 28
+resiID:C107   mute_to:FMIWVL --> probe_number: 6
+resiID:A113   mute_to:FMIWVL --> probe_number: 6,probe_number: 22,probe_number: 23
+resiID:A114   mute_to:FMIWVL --> probe_number: 6
+resiID:T117   mute_to:YFMIWVL --> probe_number: 25,probe_number: 28
+resiID:G118   mute_to:FMIAWVL --> probe_number: 25,probe_number: 28
+resiID:V120   mute_to:FI --> probe_number: 28
+resiID:V124   mute_to:FI --> probe_number: 5
+resiID:P131   mute_to:YFMICWVL --> probe_number: 7
+resiID:T136   mute_to:YFMIWVL --> probe_number: 8,probe_number: 9
+resiID:K147   mute_to:H --> probe_number: 8
+resiID:V148   mute_to:FI --> probe_number: 8
+resiID:M150   mute_to:FW --> probe_number: 9
+resiID:M151   mute_to:FW --> probe_number: 9
+resiID:L152   mute_to:FI --> probe_number: 9
+resiID:A153   mute_to:FMIWVL --> probe_number: 14,probe_number: 21
+resiID:T154   mute_to:YFMIWVL --> probe_number: 21
+resiID:L157   mute_to:FI --> probe_number: 10
+resiID:T164   mute_to:YFMIWVL --> probe_number: 8
+resiID:L180   mute_to:FI --> probe_number: 11,probe_number: 12
+resiID:K194   mute_to:H --> probe_number: 13,probe_number: 26
+resiID:L203   mute_to:FI --> probe_number: 17
+resiID:V204   mute_to:FI --> probe_number: 12
+resiID:C205   mute_to:FMIWVL --> probe_number: 15,probe_number: 16
+resiID:G206   mute_to:FMIAWVL --> probe_number: 15,probe_number: 16
+resiID:L207   mute_to:FI --> probe_number: 16,probe_number: 18
+resiID:N208   mute_to:YFMTIWVL --> probe_number: 15,probe_number: 16,probe_number: 18
+resiID:P209   mute_to:YFMICWVL --> probe_number: 15,probe_number: 18
+resiID:A211   mute_to:FMIWVL --> probe_number: 15
+resiID:V228   mute_to:FI --> probe_number: 11
+resiID:L229   mute_to:FI --> probe_number: 11,probe_number: 12
+resiID:N240   mute_to:YFMTIWVL --> probe_number: 17
+resiID:P244   mute_to:YFMICWVL --> probe_number: 15
+resiID:A245   mute_to:FMIWVL --> probe_number: 15,probe_number: 16
+resiID:L254   mute_to:FI --> probe_number: 10
+resiID:N256   mute_to:YFMTIWVL --> probe_number: 17
+resiID:A257   mute_to:FMIWVL --> probe_number: 10,probe_number: 17
+resiID:D258   mute_to:E --> probe_number: 10
+resiID:A259   mute_to:FMIWVL --> probe_number: 10
+resiID:V260   mute_to:FI --> probe_number: 10
+resiID:L261   mute_to:FI --> probe_number: 12
+resiID:M263   mute_to:FW --> probe_number: 12
+resiID:Y264   mute_to:W --> probe_number: 18
+resiID:Q267   mute_to:WYFM --> probe_number: 15,probe_number: 16,probe_number: 18
+resiID:L272   mute_to:FI --> probe_number: 19
+resiID:K273   mute_to:H --> probe_number: 19,probe_number: 20
+resiID:G276   mute_to:FMIAWVL --> probe_number: 19
+resiID:G280   mute_to:FMIAWVL --> probe_number: 19
+resiID:V281   mute_to:FI --> probe_number: 21
+resiID:N282   mute_to:YFMTIWVL --> probe_number: 9
+resiID:T284   mute_to:YFMIWVL --> probe_number: 9,probe_number: 13
+resiID:L285   mute_to:FI --> probe_number: 13
+resiID:S293   mute_to:PYFMTICWVL --> probe_number: 25
+resiID:V294   mute_to:FI --> probe_number: 25
+resiID:D295   mute_to:E --> probe_number: 19,probe_number: 20
+resiID:D309   mute_to:E --> probe_number: 24
+resiID:S312   mute_to:PYFMTICWVL --> probe_number: 24
+resiID:T315   mute_to:YFMIWVL --> probe_number: 21
+resiID:A316   mute_to:FMIWVL --> probe_number: 25
+resiID:L319   mute_to:FI --> probe_number: 14,probe_number: 21,probe_number: 26
+resiID:K322   mute_to:H --> probe_number: 26
+resiID:M323   mute_to:FW --> probe_number: 13,probe_number: 26
+resiID:N326   mute_to:YFMTIWVL --> probe_number: 26
+resiID:T327   mute_to:YFMIWVL --> probe_number: 22,probe_number: 23

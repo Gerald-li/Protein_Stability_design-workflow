@@ -1,0 +1,180 @@
+probe number is: 1
+probe lengthproperty is min: 1.000000, max: 10.000000, average: 4.300000
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.100000
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 1.248000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.700000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.700000
+probe number is: 2
+probe lengthproperty is min: 3.000000, max: 8.000000, average: 4.500000
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.250000
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 3.120000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.000000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.000000
+probe number is: 3
+probe lengthproperty is min: 1.000000, max: 8.000000, average: 4.000000
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.285714
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 3.565714
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.142857
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.142857
+probe number is: 4
+probe lengthproperty is min: 2.000000, max: 8.000000, average: 4.600000
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.200000
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 2.496000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.400000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.400000
+probe number is: 5
+probe lengthproperty is min: 0.000000, max: 5.000000, average: 2.625000
+probe chargeproperty is min: -1.000000, max: 0.000000, average: -0.125000
+probe pkaproperty is min: 0.000000, max: 4.250000, average: 0.531250
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.500000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.500000
+probe number is: 6
+probe lengthproperty is min: 1.000000, max: 7.000000, average: 3.666667
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 8.330000, average: 1.388333
+probe hbondproperty is min: 0.000000, max: 1.000000, average: 0.166667
+probe hydrophobicproperty is min: 0.000000, max: 1.000000, average: 0.166667
+probe number is: 7
+probe lengthproperty is min: 2.000000, max: 7.000000, average: 4.600000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hydrophobicproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe number is: 8
+probe lengthproperty is min: 3.000000, max: 6.000000, average: 4.166667
+probe chargeproperty is min: -1.000000, max: 1.000000, average: -0.166667
+probe pkaproperty is min: 0.000000, max: 10.790000, average: 3.215000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.166667
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.166667
+probe number is: 9
+probe lengthproperty is min: 3.000000, max: 8.000000, average: 4.375000
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.125000
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 1.560000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.750000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.750000
+probe number is: 10
+probe lengthproperty is min: 1.000000, max: 8.000000, average: 3.625000
+probe chargeproperty is min: -1.000000, max: 1.000000, average: -0.125000
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 2.573750
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.750000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.750000
+probe number is: 11
+probe lengthproperty is min: 3.000000, max: 4.000000, average: 3.800000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hydrophobicproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe number is: 12
+probe lengthproperty is min: 3.000000, max: 5.000000, average: 4.000000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hydrophobicproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe number is: 13
+probe lengthproperty is min: 3.000000, max: 8.000000, average: 4.857143
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.285714
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 3.324286
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.571429
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.571429
+probe number is: 14
+probe lengthproperty is min: 1.000000, max: 8.000000, average: 5.000000
+probe chargeproperty is min: -1.000000, max: 1.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 3.346000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.800000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.800000
+probe number is: 15
+probe lengthproperty is min: 0.000000, max: 5.000000, average: 2.000000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 8.330000, average: 1.041250
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.625000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.625000
+probe number is: 16
+probe lengthproperty is min: 0.000000, max: 5.000000, average: 2.500000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 8.330000, average: 1.388333
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.833333
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.833333
+probe number is: 17
+probe lengthproperty is min: 1.000000, max: 8.000000, average: 3.833333
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.166667
+probe pkaproperty is min: 0.000000, max: 12.480000, average: 2.080000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.000000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.000000
+probe number is: 18
+probe lengthproperty is min: 2.000000, max: 8.000000, average: 4.400000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 10.070000, average: 2.014000
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.000000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.000000
+probe number is: 19
+probe lengthproperty is min: 0.000000, max: 7.000000, average: 3.333333
+probe chargeproperty is min: -1.000000, max: 1.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 10.790000, average: 2.441667
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.500000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.500000
+probe number is: 20
+probe lengthproperty is min: 3.000000, max: 7.000000, average: 5.500000
+probe chargeproperty is min: -1.000000, max: 1.000000, average: 0.250000
+probe pkaproperty is min: 0.000000, max: 10.790000, average: 5.172500
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 1.250000
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 1.250000
+probe number is: 21
+probe lengthproperty is min: 1.000000, max: 5.000000, average: 3.166667
+probe chargeproperty is min: -1.000000, max: 0.000000, average: -0.166667
+probe pkaproperty is min: 0.000000, max: 4.250000, average: 0.708333
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.666667
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.666667
+probe number is: 22
+probe lengthproperty is min: 1.000000, max: 7.000000, average: 3.750000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 1.000000, average: 0.250000
+probe hydrophobicproperty is min: 0.000000, max: 1.000000, average: 0.250000
+probe number is: 23
+probe lengthproperty is min: 1.000000, max: 7.000000, average: 3.750000
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 1.000000, average: 0.250000
+probe hydrophobicproperty is min: 0.000000, max: 1.000000, average: 0.250000
+probe number is: 24
+probe lengthproperty is min: 2.000000, max: 6.000000, average: 3.666667
+probe chargeproperty is min: -1.000000, max: 1.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 6.040000, average: 3.300000
+probe hbondproperty is min: 1.000000, max: 2.000000, average: 1.666667
+probe hydrophobicproperty is min: 1.000000, max: 2.000000, average: 1.666667
+probe number is: 25
+probe lengthproperty is min: 0.000000, max: 7.000000, average: 2.857143
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 1.000000, average: 0.285714
+probe hydrophobicproperty is min: 0.000000, max: 1.000000, average: 0.285714
+probe number is: 26
+probe lengthproperty is min: 3.000000, max: 7.000000, average: 5.166667
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.333333
+probe pkaproperty is min: 0.000000, max: 10.790000, average: 3.596667
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.666667
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.666667
+probe number is: 27
+probe lengthproperty is min: 0.000000, max: 8.000000, average: 3.166667
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 10.070000, average: 1.678333
+probe hbondproperty is min: 0.000000, max: 1.000000, average: 0.500000
+probe hydrophobicproperty is min: 0.000000, max: 1.000000, average: 0.500000
+probe number is: 28
+probe lengthproperty is min: 0.000000, max: 6.000000, average: 2.714286
+probe chargeproperty is min: 0.000000, max: 1.000000, average: 0.142857
+probe pkaproperty is min: 0.000000, max: 6.040000, average: 0.862857
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.571429
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.571429
+probe number is: 29
+probe lengthproperty is min: 3.000000, max: 4.000000, average: 3.333333
+probe chargeproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe pkaproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hbondproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe hydrophobicproperty is min: 0.000000, max: 0.000000, average: 0.000000
+probe number is: 30
+probe lengthproperty is min: 1.000000, max: 5.000000, average: 2.714286
+probe chargeproperty is min: -1.000000, max: 0.000000, average: -0.142857
+probe pkaproperty is min: 0.000000, max: 4.250000, average: 0.607143
+probe hbondproperty is min: 0.000000, max: 2.000000, average: 0.571429
+probe hydrophobicproperty is min: 0.000000, max: 2.000000, average: 0.571429
