@@ -1,0 +1,4 @@
+-nstruct 39
+-relax:default_repeats 5
+-out:path:pdb ./refine
+-out:path:score ./refine
