@@ -22,6 +22,5 @@ def get_wt_mut(mutefile, relaxrange):
 
 if __name__=='__main__':
     mutefile = 'mut_for_relax_file.csv'
-    # relaxrange = '8'
     relaxrange = sys.argv[1]
     get_wt_mut(mutefile, relaxrange)
