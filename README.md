@@ -2,7 +2,7 @@
 This is a process of protein stability modification designed by exploring weak regions of a protein.
 
 Required software
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 - Python v3.7.7 (Anaconda installation recommended)
 - Rosetta v3.10 or later
@@ -12,7 +12,7 @@ Required software
 - CNA web server (Constraint Network Analysis, https://cpclab.uni-duesseldorf.de/cna/main.php)
 
 Usage
-^^^^^
+
 Input informaiton:
 	Input structure: A Pdb structure (prepared structure and standard residues are allowed) is needed for stability calculation. 
 	Input CNA dat: A dat file (ends with 'local_indices.dat') downloaded from the result page of the CNA web server is needed for Step 3 in the following workflow.
