@@ -6,7 +6,7 @@ import numpy as np
 from pymol import cmd
 from pymol import stored
 
-def checkinputpdb(mutepdb, mutefile, relaxrange=8): #读取WT的pdb，突变列表，以及突变后准备优化的以突变残基为中心的半径范围
+def checkinputpdb(mutepdb, mutefile, relaxrange=8):
     if sys.argv[1] == "-h":
         print("USAGE: python writemutantrelax.py mutepdb mutefile relaxrange cpunumber")
     elif (os.path.isfile(mutepdb) != True):
@@ -25,11 +25,10 @@ def checkinputpdb(mutepdb, mutefile, relaxrange=8): #读取WT的pdb，突变列�
 def dir_exists(dir):
     if os.path.exists(dir):
         print(dir)
-    #        shutil.rmtree(dir)
     if not os.path.exists(dir):
         os.mkdir(dir)
 
-def getbestscorepdb(scorepath): #从refine后的score中选择能量最低的
+def getbestscorepdb(scorepath): 
     with open(scorepath, 'r') as sc:
         i = 0
         refscore = 0
@@ -73,12 +72,12 @@ def get_mutepdb(scoredpdb, mutation):
     os.system('sh mute.sh')
     return outfile
 
-def refineflag(nstruct, relax_script, outpath):  ##写出refineflag文件，供rosetta relax使用
+def refineflag(nstruct, relax_script, outpath):  
     with open('refineflag', 'w') as f:
-        f.write('-nstruct ' + str(nstruct) + '\n')          # -nstruct 代表进行几次relax计算
-        f.write('-relax:' + relax_script + '\n')      #-relax:default_repeats 代表relax过程中，算法进行多少次退火模拟
-        f.write('-out:path:pdb ' + outpath + '\n')    #-out:path:pdb 代表在哪个文件夹中输出结果文件(pdb格式)
-        f.write('-out:path:score ' + outpath + '\n')  #-out:path:score 代表在哪个文件夹中输出打分结果文件
+        f.write('-nstruct ' + str(nstruct) + '\n')   
+        f.write('-relax:' + relax_script + '\n')     
+        f.write('-out:path:pdb ' + outpath + '\n')   
+        f.write('-out:path:score ' + outpath + '\n') 
     f.close()
     return 'refineflag'
 
@@ -138,38 +137,10 @@ def writerelaxsh(scoredpdb, bestscore_wt_relax, mutefile, refineflag_parameters,
         fb.close()
     mutf.close()
 
-# def plt_distribution(figname, scorefile, columns): ##打分文件和需要分成几个柱状图来显示
-#     total_socre = []
-#     with open(scorefile, 'r') as fs:
-#         lines = fs.readlines()
-#     fs.close()
-#     for line in lines[2:]:
-#         total_socre.append(line.split()[1])
-#     total_socre_np = np.array(total_socre, dtype=float)
-#     plt.hist(x=total_socre_np, bins=columns)
-#     plt.savefig(figname + '.png')
-#     plt.clf()
-
-
-
-#def main():
-#    mutepdb = sys.argv[1]
-#    mutefile = sys.argv[2]
-#    relaxrange = sys.argv[3]  ##relaxrange = 'all'表示relax整个蛋白; 或者一个范围例如8，表示突变残基8A范围内的残基进行relax.
-
-#    if checkinputpdb(mutepdb, mutefile, relaxrange):
-#        print("checked")
-#        writemutesh(mutepdb, mutefile)
-#        # if relaxrange == 'all':
-#        #     writerelax_all_sh(mutepdb, mutefile)
-#        # if relaxrange != 'all':
-#        writerelaxsh(mutepdb, mutefile, relaxrange=8)
-
 
 if __name__ == '__main__':
     basedir = os.path.join(os.path.dirname(os.path.abspath(__file__)), './')
     os.chdir(basedir)
-    # pdbfilename = '1nf2_chainA_delMg.pdb'
     pdbfilename = sys.argv[1]
     nstruct = sys.argv[2]
     relaxrange = sys.argv[3]
@@ -183,9 +154,5 @@ if __name__ == '__main__':
     refined_native_pdb = bestscore_pdbname + '.pdb'
     os.system('cp ./refine/%s selected_bestscorepdb' % (refined_native_pdb))
     mute_list_file ='../mut_for_relax_file.csv'
-    # relaxrange = '8' ##relaxrange = 'all'，默认全蛋白优化，如果蛋白较大，建议局部优化，不小于8A（relaxrange='8'），
-    # mutepdb = writemutesh(refined_native_pdb, mute_list_file)
-    # refineflag_parameters = ["nstruct=50", "relax_script='default_repeats 5'", "outpath='./refine'"] ##larger nstruct means we can get a precise result, but more time cost. 20-50 recommend.
-    # nstruct = "3"
     refineflag_parameters = [nstruct, "default_repeats 5", "./refine"] ##larger nstruct means we can get a precise result, but more time cost. 20-50 recommend.
     writerelaxsh(refined_native_pdb, bestscore_wt_relax, mute_list_file, refineflag_parameters, relaxrange, mpi_run=cpunumber, columns=9) #mpi_run='39'表明用39个核来运行此任务，默认为20个核。
