@@ -1,0 +1,31 @@
+  #No  RES_NAME    RES_ID     CHAIN
+
+###########################
+#Unfolding nuclei_Type1
+    1       ARG         5         A
+    2       VAL         6         A
+    3       VAL         7         A
+    4       ILE         8         A
+    5       GLU        32         A
+    6       LEU        33         A
+    7       VAL        34         A
+    8       VAL        35         A
+    9       THR        54         A
+   10       LEU        55         A
+   11       ARG        56         A
+   12       TYR        58         A
+   13       SER        59         A
+   14       SER        62         A
+   15       ALA        64         A
+   16       GLN        67         A
+   17       THR        68         A
+   18       LEU        72         A
+   19       THR        73         A
+   20       LEU        74         A
+   21       VAL        90         A
+   22       GLU        91         A
+   23       PHE       112         A
+   24       ALA       113         A
+   25       ALA       114         A
+   26       LEU       115         A
+   27       ILE       116         A
