@@ -10,16 +10,16 @@ def dir_exists(dir):
     if not os.path.exists(dir):
         os.mkdir(dir)
 
-def refineflag(nstruct, relax_script, outpath):  ##写出refineflag文件，供rosetta relax使用
+def refineflag(nstruct, relax_script, outpath):  
     with open('refineflag', 'w') as f:
-        f.write('-nstruct ' + str(nstruct) + '\n')          # -nstruct 代表进行几次relax计算
-        f.write('-relax:' + relax_script + '\n')      #-relax:default_repeats 代表relax过程中，算法进行多少次退火模拟
-        f.write('-out:path:pdb ' + outpath + '\n')    #-out:path:pdb 代表在哪个文件夹中输出结果文件(pdb格式)
-        f.write('-out:path:score ' + outpath + '\n')  #-out:path:score 代表在哪个文件夹中输出打分结果文件
+        f.write('-nstruct ' + str(nstruct) + '\n')    
+        f.write('-relax:' + relax_script + '\n')      
+        f.write('-out:path:pdb ' + outpath + '\n')    
+        f.write('-out:path:score ' + outpath + '\n')  
     f.close()
 
 
-def preparepdb(pdbbeforerefine, mpi_run): #读取要进行预测的pdb结构并进行处理，之后对处理后的pdb进行refine
+def preparepdb(pdbbeforerefine, mpi_run): 
     with open('prep_relax.sh','w') as f:
         f.write("score_jd2.linuxgccrelease -in:file:s " + pdbbeforerefine + " -ignore_unrecognized_res -out:pdb\n")
         if int(mpi_run) >= 2:
@@ -34,7 +34,7 @@ def preparepdb(pdbbeforerefine, mpi_run): #读取要进行预测的pdb结构并�
 #    os.system("relax.default.linuxgccrelease -s " + pdbbeforerefine.strip(".pdb") + "_0001.pdb @refineflag")
 
 
-def getbestscorepdb(scorepath): #从refine后的score中选择能量最低的
+def getbestscorepdb(scorepath):
     with open(scorepath, 'r') as sc:
         i = 0
         refscore = 0
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     dir_exists('refine')
     # refineflag(nstruct=50, relax_script='default_repeats 5', outpath='./refine')##nstruct = 50，越大越精确，但越耗时
     refineflag(nstruct, relax_script='default_repeats 5', outpath='./refine')
-    preparepdb(pdbfilename, mpi_run=cpunumber) ##mpi_run='1'时，不使用mpi
+    preparepdb(pdbfilename, mpi_run=cpunumber) ##when set mpi_run='1'，mpi will not be used
     scoreandpdb = getbestscorepdb("./refine/score.sc")
     with open("prepared.out",'w') as po:
         po.write("%s %s" %(scoreandpdb[0],scoreandpdb[1]))
